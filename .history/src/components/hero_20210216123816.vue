@@ -1,0 +1,11 @@
+<template>
+ <v-app color=" #f2f5f8" class="custom__bg">
+     
+
+ </v-app>
+</template>
+<style scoped>
+.custom__bg{
+    background: #f2f5f8;
+}
+</style>
