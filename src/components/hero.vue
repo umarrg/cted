@@ -9,7 +9,7 @@
           <v-col cols="12" md="12">
             <v-hover>
               <template v-slot:default="{ hover }">
-                <v-card :elevation="hover ? 20 : 6" class="mx-auto pa-6">
+                <v-card :elevation="hover ? 5 : 3" class="mx-auto pa-6" >
                   <v-card-text>
                     <v-vard-title>
                       Build your startup
@@ -20,6 +20,10 @@
                       Velit labore accusamus perspiciatis blanditiis totam error
                       fugiat, tempore aliquam explicabo, in facilis officia
                       minus?
+                      <br>
+                      <v-btn text >
+                      <a href="">Know More...</a>
+                      </v-btn>
                     </v-card-text>
                   </v-card-text>
                 </v-card>
@@ -29,7 +33,7 @@
           <v-col cols="12" md="12">
             <v-hover>
               <template v-slot:default="{ hover }">
-                <v-card :elevation="hover ? 20 : 6" class="mx-auto pa-6">
+                <v-card :elevation="hover ? 5 : 3" class="mx-auto pa-6">
                   <v-card-text>
                     <v-vard-title>
                       Build your startup
@@ -40,6 +44,10 @@
                       Velit labore accusamus perspiciatis blanditiis totam error
                       fugiat, tempore aliquam explicabo, in facilis officia
                       minus?
+                      <br>
+                      <v-btn text >
+                      <a href="">Know More...</a>
+                      </v-btn>
                     </v-card-text>
                   </v-card-text>
                 </v-card>

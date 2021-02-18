@@ -1,33 +1,37 @@
 <template>
   <v-app>
-    <v-app-bar app color="white" elevation="2">
+    <v-app-bar flat app color="white" >
       <v-toolbar-title>
-        <v-btn text to="/" >
+        <v-btn text to="/" tile color="white">
           <h2 class="custom__colour">CTED</h2>
         </v-btn>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
       <v-toolbar-items>
-        <v-btn flat class="mx-2" to="/about" elevation="0">About</v-btn>
+        <!-- <v-btn tile class="mx-2" to="/about" elevation="0">About</v-btn> -->
 
         <v-btn
-          flat
+          tile
           class="white--text"
-          color="#0096C7"
+          color="#fcaf2f"
           to="/contact"
           elevation="0"
           >Contact Us</v-btn
         >
       </v-toolbar-items>
     </v-app-bar>
+          <!-- <v-divider></v-divider> -->
+
     <v-main>
       <router-view></router-view>
       
-     
+           
+
+
     </v-main>
 
-    <!-- <v-footer padless>
+    <v-footer padless>
       <v-card flat tile class="text-center" width="100%">
         <v-card-text>
           <div class="mb-7">
@@ -48,11 +52,12 @@
           </v-btn>
         </v-card-text>
       </v-card>
-    </v-footer> -->
+    </v-footer>
   </v-app>
 </template>
 
 <script>
+
 
 
 export default {
@@ -72,6 +77,6 @@ export default {
 
 <style scoped>
 .custom__colour {
-  color: #0096c7;
+  color: #845b79;
 }
 </style>

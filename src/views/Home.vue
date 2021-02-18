@@ -111,24 +111,32 @@
       </v-carousel-item>
     </v-carousel>
 
-    <!-- <Hero id="hero" /> -->
+    <Hero id="hero" />
+    <Section id="section" />
+
+    
   </v-app>
 </template>
 
 <script>
 // @ is an alias to /src
-// import Hero from "../components/hero";
+import Hero from "../components/hero";
+import Section from "../components/section";
+
 
 export default {
   name: "Home",
-  components: {},
+  components: {
+    Hero,
+    Section,
+  },
   data: () => ({}),
 };
 </script>
 <style scoped>
 .custom__divider {
   height: 16rem;
-  color: #0277bd;
+  color: #845b79;
 }
 .custom__bg {
   background: #f2f5f8;
@@ -137,7 +145,7 @@ export default {
   background: white;
 }
 .custom__color {
-  color: #0096c7;
+  color: #845b79;
 }
 .text__one {
   font-weight: bold;

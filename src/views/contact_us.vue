@@ -1,8 +1,8 @@
 <template>
   <v-app class="custom__bg">
     <div>
-      <v-sheet class="custom__sheet" width="100%" height="70">
-        <h2 class="headline  d-flex justify-center align-center  white--text pt-5">
+      <v-sheet class="custom__sheet mt-5" width="100%" >
+        <h2 class="headline  d-flex justify-center align-center  white--text pt-10 pb-10">
           Contact Us
         </h2>
       </v-sheet>
@@ -113,11 +113,7 @@ export default {
   background: #f2f5f8;
 }
 .custom__sheet {
-  background: rgb(1, 1, 1);
-  background: linear-gradient(
-    174deg,
-    rgba(1, 1, 1, 1) 0%,
-    rgba(63, 61, 86, 1) 100%
-  );
+  background:#b3d1ca;
+  
 }
 </style>
