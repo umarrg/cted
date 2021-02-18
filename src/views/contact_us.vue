@@ -66,7 +66,7 @@
                 width="150"
                 large
                 @click="subscribe"
-                color="#0096C7"
+                color="#845b79"
               >
                 Send</v-btn
               >

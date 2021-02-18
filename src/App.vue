@@ -31,13 +31,13 @@
       <v-card flat tile class="text-center" width="100%">
         <v-card-text>
           <div class="mb-7">
-            <v-btn class="mx-4" text color="#0096c7" href="#home">
+            <v-btn class="mx-4" text color="#845b79" href="/">
               Home
             </v-btn>
-            <v-btn class="mx-4" text color="#0096c7" href="#about">
+            <v-btn class="mx-4" text color="#845b79" href="/about">
               About
             </v-btn>
-            <v-btn class="mx-4" text color="#0096c7" href="#contact">
+            <v-btn class="mx-4" text color="#845b79" href="/contact">
               Contact
             </v-btn>
           </div>

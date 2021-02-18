@@ -3,7 +3,7 @@
     <div>
       <v-sheet class="custom__sheet" width="100%" height="70">
         <h2
-          class="headline  d-flex justify-center align-center  white--text pt-5"
+          class="headline  d-flex justify-center align-center  white--text pt-5 pb-5 mt-2"
         >
           About Us
         </h2>
@@ -174,11 +174,6 @@
   background: #f2f5f8;
 }
 .custom__sheet {
-  background: rgb(1, 1, 1);
-  background: linear-gradient(
-    174deg,
-    rgba(1, 1, 1, 1) 0%,
-    rgba(63, 61, 86, 1) 100%
-  );
+  background: #0096c7;
 }
 </style>

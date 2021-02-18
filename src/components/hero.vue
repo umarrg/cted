@@ -9,8 +9,8 @@
           <v-col cols="12" md="12">
             <v-hover>
               <template v-slot:default="{ hover }">
-                <v-card :elevation="hover ? 5 : 3" class="mx-auto pa-6" >
-                  <v-card-text>
+                <v-card :elevation="hover ? 5 : 3" class="mx-auto " >
+                  <v-card-text class="pa-2">
                     <v-vard-title>
                       Build your startup
                     </v-vard-title>
@@ -33,8 +33,8 @@
           <v-col cols="12" md="12">
             <v-hover>
               <template v-slot:default="{ hover }">
-                <v-card :elevation="hover ? 5 : 3" class="mx-auto pa-6">
-                  <v-card-text>
+                <v-card :elevation="hover ? 5 : 3" class="mx-auto">
+                  <v-card-text class="pa-2">
                     <v-vard-title>
                       Build your startup
                     </v-vard-title>
